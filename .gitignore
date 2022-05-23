@@ -65,8 +65,10 @@ db.sqlite3-journal
 instance/
 .webassets-cache
 
-# Scrapy stuff:
-.scrapy
+# images:
+*.png
+*.jpg
+*.jpeg
 
 # Sphinx documentation
 docs/_build/
@@ -76,6 +78,9 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# to avoid large json
+*.json
 
 # IPython
 profile_default/
